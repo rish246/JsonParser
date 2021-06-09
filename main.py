@@ -142,7 +142,7 @@ def parse(json_data):
     
     
 def main():
-	my_json_data = '{"name" : "Rishabh", "Age" : 21,"Company" : "Standard Chartered Bank""Address" : {"Vill" : "Nanawan","P.O" : "Karsai","Teh" : "Barsar","Distt" : "Hamirpur","PIN" : 174312}, "x" : "y", "Z" : "t", "values" : [1, 2, "kareem", "Sam"], "t" : "s"}'
+	my_json_data = '{"name" : "Rishabh", "Age" : 21,"Company" : "Standard Chartered Bank", "Address" : {"Vill" : "Nanawan","P.O" : "Karsai","Teh" : "Barsar","Distt" : "Hamirpur","PIN" : 174312}, "x" : "y", "Z" : "t", "values" : [1, 2, "kareem", "Sam"], "t" : "s"}'
 	parsed_json_data = parse(my_json_data)
 	print(parsed_json_data)
 
